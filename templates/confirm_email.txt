@@ -1,0 +1,11 @@
+Hello,
+
+{% if subject %}Thanks for your email to {{ rcpt_to }} on the subject "{{ subject }}".{% else %}Thanks for your email to {{ rcpt_to }}.{% endif %}
+They're using the AS207960 WHOIS anti-spam service.
+Before your email is released onto them please go to the following link to complete a CAPTCHA.
+
+{{ captcha_link }}
+
+Thanks,
+The AS207960 Team
+https://as207960.net
